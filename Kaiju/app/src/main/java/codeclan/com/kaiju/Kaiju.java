@@ -18,4 +18,8 @@ public abstract class Kaiju {
     public String roar(){
         return "ROAR!!!";
     }
+
+    public String getName() {
+        return name;
+    }
 }

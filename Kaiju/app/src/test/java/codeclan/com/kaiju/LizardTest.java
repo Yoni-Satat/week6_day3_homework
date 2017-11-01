@@ -20,4 +20,9 @@ public class LizardTest {
     public void canRoar(){
         assertEquals("ROAR!!!", lizard.roar());
     }
+
+    @Test
+    public void canGetName(){
+        assertEquals("Mewooo", lizard.getName());
+    }
 }

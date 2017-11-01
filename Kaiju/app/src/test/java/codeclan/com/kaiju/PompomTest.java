@@ -22,4 +22,9 @@ public class PompomTest {
     public void canRoar(){
       assertEquals("ROAR!!!", pompom.roar());
     }
+
+    @Test
+    public void canGetName(){
+        assertEquals("Yoni", pompom.getName());
+    }
 }
