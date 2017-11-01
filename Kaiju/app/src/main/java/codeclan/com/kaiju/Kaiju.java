@@ -14,4 +14,8 @@ public abstract class Kaiju {
         this.healthValue = healthValue;
         this.attackValue = attackValue;
     }
+
+    public String roar(){
+        return "ROAR!!!";
+    }
 }
